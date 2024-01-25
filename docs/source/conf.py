@@ -17,15 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.quizdown',
 ]
 
-```python
-extensions = [
-    ...,
-    'sphinxcontrib.quizdown',
-    ...
-]
-```
 
 
 
