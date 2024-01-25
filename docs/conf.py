@@ -17,12 +17,23 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Quizdown Demo'
-copyright = '2021, Malte Bonart'
-author = 'Malte Bonart'
+project = 'corinna'
+copyright = '2021, Graziella'
+author = 'Graziella'
 
-# The full version, including alpha/beta/rc tags
-release = '0.3.0'
+release = '0.1'
+version = '0.1.0'
+
+# -- General configuration
+
+extensions = [
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx'
+    'sphinxcontrib.quizdown',
+]
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,7 +42,7 @@ release = '0.3.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinxcontrib.quizdown'
+    'sphinxcontrib.quizdown',
 ]
 
 
