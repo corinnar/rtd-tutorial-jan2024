@@ -1,5 +1,26 @@
 
-.. quizdown:: quiz.md
+Quizdown Demo
+=============
+
+Embed an external quizfile
++++++++++++++++++++++++++++
+
+.. code:: rst
+
+   .. quizdown:: ./quiz.md
+
+
+.. raw:: html
+
+   <details>
+   <summary><a>🤖 Show <code>quiz.md</code></a></summary>
+
+.. literalinclude :: quiz.md
+   :language: md
+
+.. raw:: html
+
+   </details>
 
 
 Usage
