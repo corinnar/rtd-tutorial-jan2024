@@ -32,7 +32,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinxcontrib-quizdown-0.3',
+    'sphinxcontrib.quizdown',
 ]
 
 
