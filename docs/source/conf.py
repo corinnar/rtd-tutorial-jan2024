@@ -11,6 +11,9 @@ version = '0.1.0'
 
 # -- General configuration
 
+pip install git+git://github.com/bonartm/sphinxcontrib-quizdown
+
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
