@@ -1,3 +1,7 @@
+
+.. quizdown:: quiz.md
+
+
 Usage
 =====
 
