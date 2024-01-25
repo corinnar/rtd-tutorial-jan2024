@@ -32,18 +32,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinxcontrib-quizdown',
+    'sphinxcontrib-quizdown-0.3',
 ]
 
 
-# -- General configuration ---------------------------------------------------
-
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-extensions = [
-    'sphinxcontrib-quizdown',
-]
 
 
 # global options passed to the quizdown library
