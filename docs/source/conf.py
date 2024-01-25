@@ -20,6 +20,17 @@ extensions = [
     'sphinxcontrib.quizdown',
 ]
 
+```python
+extensions = [
+    ...,
+    'sphinxcontrib.quizdown',
+    ...
+]
+```
+
+
+
+
 
 # global options passed to the quizdown library
 quizdown_config = {
